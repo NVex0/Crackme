@@ -47,7 +47,7 @@ Load into IDA, the graph presents that this one jump to previous windows prompt 
 
 ![image](https://github.com/user-attachments/assets/83657b2c-e79c-40bf-a8e4-d8578c0b1979)
 
-So i managed to change `JZ` opcode to `JNZ` opcode (74 to 75), then the file is going to change its execution flow (jump to another branch, that creates some winGUI or something):
+So i managed to change `JZ` opcode to `JNZ` opcode (74 to 75), then the file is going to change its execution flow (jump to another branch, that creates a winGUI or something):
 
 ![image](https://github.com/user-attachments/assets/cd0e0757-ef42-48fd-99c6-fccc541e3712)
 
